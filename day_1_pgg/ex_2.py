@@ -14,5 +14,6 @@ Distance Warsaw-Gdansk: 420
 Fuel price: 4.55
 Fuel consumption per 100 km: 5.5
 Sample program output:
-The cost of the Warsaw-Gdańsk journey is 105 PLN
+The cost of the Warsaw-Gdańsk journey is 105.11 PLN
 """
+
