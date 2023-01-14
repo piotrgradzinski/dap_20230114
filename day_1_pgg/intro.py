@@ -133,3 +133,58 @@ print(f'Price: >{price:<10.2f}<')
 print(f'Price: >{price:^10.2f}<')
 print(f'Price: >{price:_^10.2f}<')
 
+print('-' * 30)
+
+# Assignment operators
+my_number = 10
+my_number = my_number + 5
+print(my_number)
+
+# easier approach, using proper assignment operator
+other_number = 10
+other_number += 5
+print(other_number)
+
+third_number = 10
+third_number -= 5
+print(third_number)  # 5
+
+third_number *= 2
+print(third_number)  # 10
+
+third_number /= 5
+print(third_number)  # 2.0
+
+print('-' * 30)
+
+# Comparison operators
+# as a result of computation they return boolean (True/False) value
+# Does 1 equal 1? True
+# Does 1 equal 2? False
+print(1 == 1)  # True, !!! two equal signs, one equal sign is assignment operator!!!
+print(1 != 1)  # False, Does 1 not equal 1?
+print(1 > 2)  # False
+print(1 < 2)  # True
+print(1 <= 1)  # True
+print(1 >= 1)  # True
+
+print('-' * 30)
+
+# Logical operators
+# and, or, not
+print(True and True)  # True
+print(True and False)  # False
+print(False and True)  # False
+print(False and False)  # False
+
+print()
+
+print(True or True)  # True
+print(True or False)  # True
+print(False or True)  # True
+print(False or False)  # False
+
+print()
+
+print(not True)  # False
+print(not False)  # True
