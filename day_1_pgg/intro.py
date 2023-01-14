@@ -113,3 +113,23 @@ third line
 # comment
 # another comment
 # yet another comment
+
+
+# f-string
+first_name = 'Piotr'
+print(f'My name is {first_name}')
+
+price = 10 * 3.12356
+print(price)
+print(f'Price: {price}')
+
+# format specifier
+# https://www.python.org/dev/peps/pep-0498/#format-specifiers
+# https://docs.python.org/3.9/library/string.html#formatspec
+
+print(f'Price: {price:.2f}')
+print(f'Price: >{price:10.2f}<')
+print(f'Price: >{price:<10.2f}<')
+print(f'Price: >{price:^10.2f}<')
+print(f'Price: >{price:_^10.2f}<')
+
