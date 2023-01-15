@@ -67,9 +67,88 @@ print(my_tuple[::2])  # 'a', 'c', 'e', 'g', 'i'
 print(my_tuple[::-2])  # 'j', 'h', 'f', 'd', 'b'
 print(my_tuple[::-1])
 
+print('-' * 60)
 
+# useful methods, to be not only on tuple but also
+# (in most cases) on other collections as well
+print(len(my_tuple))  # how many elements we have in a collection
+print('a' in my_tuple)
+print('q' in my_tuple)
+print('q' not in my_tuple)
 
+# my_tuple[0] = -10  # KO: TypeError: 'tuple' object does not support item assignment
 
+#          0   1   2   3   4
+numbers = (10, 20, 30, 40, 50)
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
+print(sum(numbers) / len(numbers))
 
+print(numbers.index(40))  # 3
+print(numbers.count(40))
 
+print('-' * 60)
 
+# Lists
+my_list = [10, 20, 30, 40, 50]
+print(my_list)
+
+# [] - index operator works exactly the same as in tuples
+print(my_list[1])
+
+print(my_list)
+my_list[0] = 11
+print(my_list)
+
+# tuple: (Piotr, GG, 182, 46)
+# list:  [10, 12, -5, 17] - different temperatures
+
+print(my_list)
+my_list.append(60)
+print(my_list)
+
+my_list.insert(1, 12)
+print(my_list)
+
+my_list[0:2] = [1, 2]
+print(my_list)
+
+my_list[0:2] = [1, 2, 3, 4]  # we are replacing first two elements and adding rest
+print(my_list)
+
+my_list.extend([700, 800, 900])
+print(my_list)
+
+# my_list.append([700, 800, 900])
+# print(my_list)
+
+# deleting elements by index
+del(my_list[0])  # here we can use all the features of the indexing operator (start, stop, step)
+print(my_list)
+
+# after the deletion elements are reindex
+del(my_list[0:3])
+print(my_list)
+
+# delete element by its value
+my_list.remove(800)
+print(my_list)
+
+print('-' * 60)
+
+# iterating through collections...
+
+print(my_list)
+print()
+
+i = 0
+while i < len(my_list):
+    print(my_list[i])
+    i += 1
+
+print('-' * 3)
+
+# for loop
+for number in my_list:
+    print(number)
