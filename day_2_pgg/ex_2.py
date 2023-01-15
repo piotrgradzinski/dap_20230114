@@ -11,3 +11,24 @@ Enter the type of operation (+, -, *, /): +
 Result: 15
 """
 
+number_1 = int(input('Enter the first number: '))
+number_2 = int(input('Enter the second number: '))
+operation = input('Enter the type of operation (+, -, *, /): ')
+
+if operation == '+':
+    result = number_1 + number_2
+elif operation == '-':
+    result = number_1 - number_2
+elif operation == '*':
+    result = number_1 - number_2
+elif operation == '/':
+    result = number_1 / number_2
+else:
+    result = None
+
+# for checking if value equals (is) None, True, False
+# we should use "is" or "is not" operator
+if result is None:
+    print('Invalid operation')
+else:
+    print(f'{number_1}{operation}{number_2}={result}')
