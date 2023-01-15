@@ -23,8 +23,8 @@ day_number = 1
 temperature_sum = 0
 
 while day_number <= 7:
-    # get the temp
-    # increase day number
+    temperature_sum += int(input(f'Temperature for day {day_number}: '))
+    day_number += 1
 
-# calculate average
-# present the results
+average = temperature_sum / 7
+print(f'Average temperature for this week is {average}')
