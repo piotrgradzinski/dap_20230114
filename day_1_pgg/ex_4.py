@@ -15,8 +15,8 @@ Enter the number: 7
 Result: True
 """
 
-number = int(input('Enter the number'))
+number = int(input('Enter the number: '))
 
-result = number > 10 or number == 7
+result = (number % 2 != 0 and number % 3 == 0 and number > 10) or number == 7
 
 print(result)
