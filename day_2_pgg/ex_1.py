@@ -21,4 +21,3 @@ if age >= 18:
     print('You are of a legal age!')
 else:
     print('You are NOT of a legal age!')
-
