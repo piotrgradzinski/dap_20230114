@@ -253,3 +253,68 @@ print(numbers)
 # [expression for local_variable in iterable]
 numbers = [number * 10 for number in range(0, 11)]
 print(numbers)
+
+
+# set comprehensions
+my_string = "To be or not to be"
+characters = {character for character in my_string}
+print(my_string)
+print(characters)
+
+# dict comprehension
+my_string = "To be or not to be"
+occurences = {letter: letter.upper() for letter in my_string}
+print(occurences)
+#        key :  value
+words = {word: len(word) for word in my_string.split(' ')}
+print(words)
+
+print('-' * 30)
+
+salaries = [1000, 2000, 2500, 1500, 5000]
+print('salaries', salaries)
+
+# tax = 19%, I want to have net salaries
+net_salaries = [round(salary * 0.81, 2) for salary in salaries]
+print('net_salaries', net_salaries)
+
+# if base salary is greater than 2000 we want to give 10% bonus of the base salary
+bonuses = []
+for salary in salaries:
+    if salary > 2000:
+        bonuses.append(0.1)
+    else:
+        bonuses.append(0.0)
+
+print('bonuses', bonuses)
+# (return if condition is true) if condition else (return if condition is false)
+bonuses = [0.1 if salary > 2000 else 0.0 for salary in salaries]
+print('bonuses', bonuses)
+
+print(list(zip(net_salaries, bonuses)))
+
+bonus_values = []
+for salary, bonus in zip(net_salaries, bonuses):
+    bonus_values.append(salary * bonus)
+
+print(bonus_values)
+
+bonus_values = [salary * bonus for salary, bonus in zip(net_salaries, bonuses)]
+print(bonus_values)
+
+to_pay_with_bonuses = [salary + bonus for salary, bonus in zip(net_salaries, bonus_values)]
+print(to_pay_with_bonuses)
+
+print('-' * 30)
+
+cities = ['Warszawa', 'Kraków', 'Gdansk', 'Gdynia', 'Grodzisk']
+
+g_cities = []
+for city in cities:
+    if city.startswith('G'):
+        g_cities.append(city)
+
+print(g_cities)
+
+g_cities = [city for city in cities if city.startswith('G')]
+print(g_cities)
