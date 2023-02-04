@@ -335,3 +335,13 @@ data = [
     {"product_id":"287","product_name":"MSI X99A XPOWER GAMING TITANIUM","description":"CPU:LGA2011-3,Form Factor:EATX,RAM Sl:8,Max RAM:128GB","standard_cost":"257.23","list_price":"329.99","category_id":"4"},
     {"product_id":"288","product_name":"Asus ROG STRIX X99 GAMING","description":"CPU:LGA2011-3,Form Factor:ATX,RAM Sl:8,Max RAM:128GB","standard_cost":"255.86","list_price":"319.99","category_id":"4"}
 ]
+
+parameter_types = set()  # creates an empty set
+
+for product in data:
+    for param_pair in product['description'].split(','):
+        parameter_types.add(param_pair.split(':')[0])
+
+print('Parameters:')
+for param_type in parameter_types:
+    print(param_type)
