@@ -105,3 +105,64 @@ print(my_string.replace('To', '**'))
 print(my_string)
 # is 'to' in my_string? True
 print('to' in my_string)
+
+print('-' * 30)
+
+"""
+Dictionary
+https://realpython.com/python-dicts/
+
+Python dictionary consists of keys and values
+What can be a key:
+- the most popular approach is to use strings as keys
+- but other data types can be keys as well, for example:
+    integers, floats, bools, tuples
+  as rule of thumb only immutable data types can be dictionary keys 
+What can be a value:
+- any data type in python can be a value of a dictionary
+"""
+my_dict = {
+    # key       : value
+    'first_name': 'Piotr',
+    'last_name': 'GG',
+    'shoe_number': 46,
+    'favourite_numbers': [1, 2, 3, 4, 5],
+}
+
+# my_dict[key]
+print(my_dict['first_name'])
+print(my_dict['favourite_numbers'])
+print(my_dict['favourite_numbers'][1])
+my_dict['first_name'] = 'Peter'
+print(my_dict)
+
+my_dict['height'] = 180
+print(my_dict)
+
+# we are checking if dictionary contains a key
+print('height' in my_dict)  # True
+print('weight' in my_dict)  # False
+
+print('-' * 10)
+
+# iterating through dictionary
+# by default iterating through keys
+for key in my_dict:
+    print(key, my_dict[key])
+
+print('-' * 10)
+
+# .items() for each iteration will return a tuple
+for key, value in my_dict.items():
+    print(key, value)
+
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
+
+del(my_dict['height'])
+print(my_dict)
+# by default if the key is not present in the dictionary KeyError exception is raised
+# print(my_dict['height'])  # KO: KeyError: 'height'
+print(my_dict.get('height'))  # Instead of exception, if key is not present we get None
+print(my_dict.get('height', -1))  # We can define the default value returned if the key is not present
