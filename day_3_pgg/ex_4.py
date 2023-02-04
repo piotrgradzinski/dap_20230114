@@ -25,6 +25,12 @@ for product, price in products.items():
     print(f'{product} - {price:.2f}')
 
 requested_product = input('Which product you would like to buy: ')
+# requested_product = requested_product.lower()
+# requested_product = requested_product.strip()
+
+# instead of having 2 lines of cleaning code I can have one
+# this approach is called method-chaining
+requested_product = requested_product.lower().strip()
 
 if requested_product not in products:
     print(f'The product you have requested is not available.')
