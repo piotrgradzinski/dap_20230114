@@ -61,3 +61,47 @@ print('-' * 10)
 # by default it is 0
 for num, name in enumerate(names, start=1):
     print(f"{num}. {name}")
+
+print('-' * 30)
+
+# strings are iterable
+#            0123456789
+my_string = 'To be or not to be'
+
+for character in my_string:
+    print(character)
+
+print('-' * 30)
+
+# strings support access operator
+# works exactly the same as for tuples and lists
+print(my_string[0])
+print(my_string[1:5])
+print(my_string[1:10:2])
+print(my_string[-1])
+print(my_string[::-1])
+
+print('-' * 30)
+
+# once created string doesn't change
+print(my_string.lower())  # converts all characters to lower case and returns a new string
+print(my_string)  # the original string is not changed, stays the same
+print("hello world".upper())
+print(my_string.title())
+print(my_string.capitalize())
+
+print(my_string.split())  # by default split uses space as divider
+print(my_string.split(' '))
+print(my_string.split('o'))
+
+names = ['Tom', 'Jane', 'John']
+print(';'.join(names))
+print('<->'.join(names))
+
+print(my_string.count('o'))
+print(my_string.replace('o', '*'))
+print(my_string.replace('To', '**'))
+
+print(my_string)
+# is 'to' in my_string? True
+print('to' in my_string)
