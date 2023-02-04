@@ -166,3 +166,71 @@ print(my_dict)
 # print(my_dict['height'])  # KO: KeyError: 'height'
 print(my_dict.get('height'))  # Instead of exception, if key is not present we get None
 print(my_dict.get('height', -1))  # We can define the default value returned if the key is not present
+
+print('-' * 30)
+
+# Set
+my_set = {10, 20, 30, 40, 50}
+
+print(my_set)
+my_set.add(10)
+print(my_set)
+my_set.add(60)
+print(my_set)
+
+my_set.remove(60)
+print(my_set)
+
+# access operator [] does NOT work!!!
+# my_set[0]  # KO: TypeError: 'set' object is not subscriptable
+
+print(len(my_set))
+
+for number in my_set:
+    print(number)
+
+# quickly removing duplicates from a list
+# caveat: with conversion to set we loose the order of the elements
+
+my_list = [1, 1, 1, 1, 2, 3]
+print(my_list)
+my_set = set(my_list)
+print(my_set)
+my_list = list(my_set)
+print(my_list)
+
+print('-' * 30)
+
+a = {1, 2, 3}
+b = {1, 2, 4, 5}
+
+print(a)
+print(b)
+
+# operations based on a set theory
+# https://commons.wikimedia.org/wiki/File:Set_Theory_Operations.svg
+# sum, union
+print(a.union(b))
+
+# intersection
+print(a.intersection(b))
+
+# symmetric difference
+print(a.symmetric_difference(b))
+
+# difference
+print(a.difference(b))
+
+print('-' * 30)
+
+# it's easy to convert one collection into another
+my_set = {1, 1, 1, 1, 2, 3, 4}
+list_from_set = list(my_set)
+print(my_set)
+print(list_from_set)
+
+print('-' * 10)
+
+# we can convert any iterable to a collection
+my_list = list(range(-5, 6))
+print(my_list)
