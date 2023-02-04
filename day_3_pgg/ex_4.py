@@ -14,3 +14,22 @@ How we can do that?
 4. Ask how many kilograms user wants to buy
 5. Calculate users due
 """
+products = {
+    'potatoes': 1.2,
+    'tomatoes': 4.5,
+    'carrots': 0.5,
+}
+
+print('Available products:')
+for product, price in products.items():
+    print(f'{product} - {price:.2f}')
+
+requested_product = input('Which product you would like to buy: ')
+
+if requested_product not in products:
+    print(f'The product you have requested is not available.')
+    exit(1)  # exit returns a status code: 0 - everything is fine, other than 0 - something was wrong
+
+weight = float(input(f'How many kilograms of {requested_product} would you like to buy: '))
+amount_due = products[requested_product] * weight
+print(f'For {weight} kg of {requested_product} you have to pay {amount_due:.2f}')
