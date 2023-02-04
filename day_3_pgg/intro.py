@@ -234,3 +234,22 @@ print('-' * 10)
 # we can convert any iterable to a collection
 my_list = list(range(-5, 6))
 print(my_list)
+
+print('-' * 30)
+
+# Comprehensions
+# list comprehensions
+
+numbers = []
+for number in range(0, 11):
+    numbers.append(number)
+
+print(numbers)
+
+# the same thing but with list comprehension
+numbers = [number for number in range(0, 11)]
+print(numbers)
+
+# [expression for local_variable in iterable]
+numbers = [number * 10 for number in range(0, 11)]
+print(numbers)
