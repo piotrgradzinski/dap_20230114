@@ -150,5 +150,10 @@ while i < len(my_list):
 print('-' * 3)
 
 # for loop
+# we can read it as: for each number in my_list do something
 for number in my_list:
     print(number)
+
+    print('Hello world')  # inside the for loop
+
+print('Hello world')  # outside the for loop
