@@ -7,3 +7,14 @@ numbers in a given list of integers.
 # zero is usually (but not always) thought of as neither positive nor negative
 
 numbers = [1, 2, 3, -100, -10, 0, 4]
+
+positive_numbers = 0
+negative_numbers = 0
+
+for number in numbers:
+    if number > 0:
+        positive_numbers += 1
+    elif number < 0:
+        negative_numbers += 1
+
+print(f"Negatives: {negative_numbers}, positives: {positive_numbers}")
