@@ -40,3 +40,11 @@ def split_document_number_to_parts(document_number: str) -> dict:
 
 result = split_document_number_to_parts("FV/BI/2023-1/10")
 print(result)
+
+
+# module -> functions
+
+# import pprint module
+import pprint  # import should be on top of the file
+
+pprint.pprint(result)
