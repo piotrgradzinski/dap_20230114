@@ -18,4 +18,7 @@ returns
     "quarter": "1",
     "number": "10"
 }
+
+Extra
+Throw an exception if number does not match the pattern. You can check it by the number of "/".
 """
