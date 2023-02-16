@@ -1,5 +1,5 @@
 """
-Create a tuple containing 10 different integers. Using the access and slicing operator, get:
+Create a tuple containing 10 different integers. Using the indexing operator, get:
 
 - second element (20)
 - next to last item (90)

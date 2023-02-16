@@ -73,7 +73,7 @@ for character in my_string:
 
 print('-' * 30)
 
-# strings support access operator
+# strings support indexing operator
 # works exactly the same as for tuples and lists
 print(my_string[0])
 print(my_string[1:5])
@@ -181,7 +181,7 @@ print(my_set)
 my_set.remove(60)
 print(my_set)
 
-# access operator [] does NOT work!!!
+# indexing operator [] does NOT work!!!
 # my_set[0]  # KO: TypeError: 'set' object is not subscriptable
 
 print(len(my_set))
