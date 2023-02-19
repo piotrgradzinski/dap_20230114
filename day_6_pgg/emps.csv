@@ -1,0 +1,108 @@
+employee_id;first_name;last_name;job_title;salary;hire_date;department_name;address;postal_code;city;country
+100;Steven;King;President;24000;1997-06-17;Executive;2004 Charade Rd;98199;Seattle;United States of America
+101;Neena;Kochhar;Administration Vice President;17000;1999-09-21;Executive;2004 Charade Rd;98199;Seattle;United States of America
+102;Lex;De Haan;Administration Vice President;17000;2003-01-13;Executive;2004 Charade Rd;98199;Seattle;United States of America
+103;Alexander;Hunold;Programmer;9000;2000-01-03;IT;2014 Jabberwocky Rd;26192;Southlake;United States of America
+104;Bruce;Ernst;Programmer;6000;2001-05-21;IT;2014 Jabberwocky Rd;26192;Southlake;United States of America
+105;David;Austin;Programmer;4800;2007-06-25;IT;2014 Jabberwocky Rd;26192;Southlake;United States of America
+106;Valli;Pataballa;Programmer;4800;2008-02-05;IT;2014 Jabberwocky Rd;26192;Southlake;United States of America
+107;Diana;Lorentz;Programmer;4200;2009-02-07;IT;2014 Jabberwocky Rd;26192;Southlake;United States of America
+108;Nancy;Greenberg;Finance Manager;12000;2004-08-17;Finance;2004 Charade Rd;98199;Seattle;United States of America
+109;Daniel;Faviet;Accountant;9000;2004-08-16;Finance;2004 Charade Rd;98199;Seattle;United States of America
+110;John;Chen;Accountant;8200;2007-09-28;Finance;2004 Charade Rd;98199;Seattle;United States of America
+111;Ismael;Sciarra;Accountant;7700;2007-09-30;Finance;2004 Charade Rd;98199;Seattle;United States of America
+112;Jose Manuel;Urman;Accountant;7800;1998-03-07;Finance;2004 Charade Rd;98199;Seattle;United States of America
+113;Luis;Popp;Accountant;6900;2009-12-07;Finance;2004 Charade Rd;98199;Seattle;United States of America
+114;Den;Raphaely;Purchasing Manager;11000;2004-12-07;Purchasing;2004 Charade Rd;98199;Seattle;United States of America
+115;Alexander;Khoo;Purchasing Clerk;3100;2005-05-18;Purchasing;2004 Charade Rd;98199;Seattle;United States of America
+116;Shelli;Baida;Purchasing Clerk;2900;2007-12-24;Purchasing;2004 Charade Rd;98199;Seattle;United States of America
+117;Sigal;Tobias;Purchasing Clerk;2800;2007-07-24;Purchasing;2004 Charade Rd;98199;Seattle;United States of America
+118;Guy;Himuro;Purchasing Clerk;2600;2008-11-15;Purchasing;2004 Charade Rd;98199;Seattle;United States of America
+119;Karen;Colmenares;Purchasing Clerk;2500;2009-08-10;Purchasing;2004 Charade Rd;98199;Seattle;United States of America
+120;Matthew;Weiss;Stock Manager;8000;2006-07-18;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+121;Adam;Fripp;Stock Manager;8200;2007-04-10;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+122;Payam;Kaufling;Stock Manager;7900;2005-05-01;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+123;Shanta;Vollman;Stock Manager;6500;2007-10-10;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+124;Kevin;Mourgos;Stock Manager;5800;2009-11-16;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+125;Julia;Nayer;Stock Clerk;3200;2007-07-16;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+126;Irene;Mikkilineni;Stock Clerk;2700;2008-09-28;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+127;James;Landry;Stock Clerk;2400;2009-01-14;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+128;Steven;Markle;Stock Clerk;2200;2010-03-08;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+129;Laura;Bissot;Stock Clerk;3300;2007-08-20;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+130;Mozhe;Atkinson;Stock Clerk;2800;2007-10-30;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+131;James;Marlow;Stock Clerk;2500;2007-02-16;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+132;TJ;Olson;Stock Clerk;2100;2009-04-10;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+133;Jason;Mallin;Stock Clerk;3300;2006-06-14;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+134;Michael;Rogers;Stock Clerk;2900;2008-08-26;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+135;Ki;Gee;Stock Clerk;2400;2009-12-12;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+136;Hazel;Philtanker;Stock Clerk;2200;2011-02-06;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+137;Renske;Ladwig;Stock Clerk;3600;2005-07-14;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+138;Stephen;Stiles;Stock Clerk;3200;2007-10-26;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+139;John;Seo;Stock Clerk;2700;2008-02-12;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+140;Joshua;Patel;Stock Clerk;2500;2008-04-06;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+141;Trenna;Rajs;Stock Clerk;3500;2005-10-17;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+142;Curtis;Davies;Stock Clerk;3100;2007-01-29;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+143;Randall;Matos;Stock Clerk;2600;2008-03-15;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+144;Peter;Vargas;Stock Clerk;2500;2008-07-09;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+145;John;Russell;Sales Manager;14000;2006-10-01;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+146;Karen;Partners;Sales Manager;13500;2007-01-05;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+147;Alberto;Errazuriz;Sales Manager;12000;2007-03-10;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+148;Gerald;Cambrault;Sales Manager;11000;2009-10-15;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+149;Eleni;Zlotkey;Sales Manager;10500;2000-01-29;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+150;Peter;Tucker;Sales Representative;10000;2007-01-30;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+151;David;Bernstein;Sales Representative;9500;2007-03-24;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+152;Peter;Hall;Sales Representative;9000;2007-08-20;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+153;Christopher;Olsen;Sales Representative;8000;2008-03-30;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+154;Nanette;Cambrault;Sales Representative;7500;2008-12-09;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+155;Oliver;Tuvault;Sales Representative;7000;2009-11-23;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+156;Janette;King;Sales Representative;10000;2006-01-30;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+157;Patrick;Sully;Sales Representative;9500;2006-03-04;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+158;Allan;McEwen;Sales Representative;9000;2006-08-01;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+159;Lindsey;Smith;Sales Representative;8000;2007-03-10;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+160;Louise;Doran;Sales Representative;7500;2007-12-15;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+161;Sarath;Sewall;Sales Representative;7000;2008-11-03;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+162;Clara;Vishney;Sales Representative;10500;2007-11-11;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+163;Danielle;Greene;Sales Representative;9500;2009-03-19;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+164;Mattea;Marvins;Sales Representative;7200;2010-01-24;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+165;David;Lee;Sales Representative;6800;2000-02-23;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+166;Sundar;Ande;Sales Representative;6400;2000-03-24;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+167;Amit;Banda;Sales Representative;6200;2000-04-21;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+168;Lisa;Ozer;Sales Representative;11500;2007-03-11;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+169;Harrison;Bloom;Sales Representative;10000;2008-03-23;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+170;Tayler;Fox;Sales Representative;9600;2008-01-24;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+171;William;Smith;Sales Representative;7400;2009-02-23;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+172;Elizabeth;Bates;Sales Representative;7300;2009-03-24;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+173;Sundita;Kumar;Sales Representative;6100;2010-04-21;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+174;Ellen;Abel;Sales Representative;11000;2006-05-11;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+175;Alyssa;Hutton;Sales Representative;8800;2007-03-19;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+176;Jonathon;Taylor;Sales Representative;8600;2008-03-24;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+177;Jack;Livingston;Sales Representative;8400;2008-04-23;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+178;Kimberely;Grant;Sales Representative;7000;2009-05-24;;;;;
+179;Charles;Johnson;Sales Representative;6200;2011-01-04;Sales;Magdalen Centre, The Oxford Science Park;OX9 9ZB;Oxford;United Kingdom
+180;Winston;Taylor;Shipping Clerk;3200;2008-01-24;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+181;Jean;Fleaur;Shipping Clerk;3100;2008-02-23;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+182;Martha;Sullivan;Shipping Clerk;2500;2009-06-21;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+183;Girard;Geoni;Shipping Clerk;2800;2000-02-03;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+184;Nandita;Sarchand;Shipping Clerk;4200;2006-01-27;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+185;Alexis;Bull;Shipping Clerk;4100;2007-02-20;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+186;Julia;Dellinger;Shipping Clerk;3400;2008-06-24;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+187;Anthony;Cabrio;Shipping Clerk;3000;2009-02-07;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+188;Kelly;Chung;Shipping Clerk;3800;2007-06-14;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+189;Jennifer;Dilly;Shipping Clerk;3600;2007-08-13;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+190;Timothy;Gates;Shipping Clerk;2900;2008-07-11;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+191;Randall;Perkins;Shipping Clerk;2500;2009-12-19;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+192;Sarah;Bell;Shipping Clerk;4000;2006-02-04;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+193;Britney;Everett;Shipping Clerk;3900;2007-03-03;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+194;Samuel;McCain;Shipping Clerk;3200;2008-07-01;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+195;Vance;Jones;Shipping Clerk;2800;2009-03-17;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+196;Alana;Walsh;Shipping Clerk;3100;2008-04-24;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+197;Kevin;Feeney;Shipping Clerk;3000;2008-05-23;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+198;Donald;OConnell;Shipping Clerk;2600;2009-06-21;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+199;Douglas;Grant;Shipping Clerk;2600;2010-01-13;Shipping;2011 Interiors Blvd;99236;South San Francisco;United States of America
+200;Jennifer;Whalen;Administration Assistant;4400;1987-09-17;Administration;2004 Charade Rd;98199;Seattle;United States of America
+201;Michael;Hartstein;Marketing Manager;13000;2006-02-17;Marketing;147 Spadina Ave;M5V 2L7;Toronto;Canada
+202;Pat;Fay;Marketing Representative;6000;2007-08-17;Marketing;147 Spadina Ave;M5V 2L7;Toronto;Canada
+203;Susan;Mavris;Human Resources Representative;6500;2004-06-07;Human Resources;8204 Arthur St;;London;United Kingdom
+204;Hermann;Baer;Public Relations Representative;10000;2004-06-07;Public Relations;Schwanthalerstr. 7031;80925;Munich;Germany
+205;Shelley;Higgins;Accounting Manager;12000;2004-06-07;Accounting;2004 Charade Rd;98199;Seattle;United States of America
+206;William;Gietz;Public Accountant;8300;2004-06-07;Accounting;2004 Charade Rd;98199;Seattle;United States of America
