@@ -1,4 +1,4 @@
-no;date;city;shop;category;product;price;quantity
+no;transaction_date;city;shop;category;product;price;quantity
 1;2014-11-23;London;Newbold Accountancy Services;furniture;desk;149.99;4
 2;2017-05-07;Berlin;Quality Boiler Repairs;school equipment;blackboard;590.0;2
 3;2017-05-05;Cracow;Richards Textiles;school and office equipment;pen;0.99;51
