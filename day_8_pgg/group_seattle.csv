@@ -1,0 +1,19 @@
+employee_id,first_name,last_name,job_title,salary,hire_date,department_name,address,postal_code,city,country
+100,Steven,King,President,24000,1997-06-17,Executive,2004 Charade Rd,98199,Seattle,United States of America
+101,Neena,Kochhar,Administration Vice President,17000,1999-09-21,Executive,2004 Charade Rd,98199,Seattle,United States of America
+102,Lex,De Haan,Administration Vice President,17000,2003-01-13,Executive,2004 Charade Rd,98199,Seattle,United States of America
+108,Nancy,Greenberg,Finance Manager,12000,2004-08-17,Finance,2004 Charade Rd,98199,Seattle,United States of America
+109,Daniel,Faviet,Accountant,9000,2004-08-16,Finance,2004 Charade Rd,98199,Seattle,United States of America
+110,John,Chen,Accountant,8200,2007-09-28,Finance,2004 Charade Rd,98199,Seattle,United States of America
+111,Ismael,Sciarra,Accountant,7700,2007-09-30,Finance,2004 Charade Rd,98199,Seattle,United States of America
+112,Jose Manuel,Urman,Accountant,7800,1998-03-07,Finance,2004 Charade Rd,98199,Seattle,United States of America
+113,Luis,Popp,Accountant,6900,2009-12-07,Finance,2004 Charade Rd,98199,Seattle,United States of America
+114,Den,Raphaely,Purchasing Manager,11000,2004-12-07,Purchasing,2004 Charade Rd,98199,Seattle,United States of America
+115,Alexander,Khoo,Purchasing Clerk,3100,2005-05-18,Purchasing,2004 Charade Rd,98199,Seattle,United States of America
+116,Shelli,Baida,Purchasing Clerk,2900,2007-12-24,Purchasing,2004 Charade Rd,98199,Seattle,United States of America
+117,Sigal,Tobias,Purchasing Clerk,2800,2007-07-24,Purchasing,2004 Charade Rd,98199,Seattle,United States of America
+118,Guy,Himuro,Purchasing Clerk,2600,2008-11-15,Purchasing,2004 Charade Rd,98199,Seattle,United States of America
+119,Karen,Colmenares,Purchasing Clerk,2500,2009-08-10,Purchasing,2004 Charade Rd,98199,Seattle,United States of America
+200,Jennifer,Whalen,Administration Assistant,4400,1987-09-17,Administration,2004 Charade Rd,98199,Seattle,United States of America
+205,Shelley,Higgins,Accounting Manager,12000,2004-06-07,Accounting,2004 Charade Rd,98199,Seattle,United States of America
+206,William,Gietz,Public Accountant,8300,2004-06-07,Accounting,2004 Charade Rd,98199,Seattle,United States of America

@@ -1,0 +1,6 @@
+employee_id,first_name,last_name,job_title,salary,hire_date,department_name,address,postal_code,city,country
+103,Alexander,Hunold,Programmer,9000,2000-01-03,IT,2014 Jabberwocky Rd,26192,Southlake,United States of America
+104,Bruce,Ernst,Programmer,6000,2001-05-21,IT,2014 Jabberwocky Rd,26192,Southlake,United States of America
+105,David,Austin,Programmer,4800,2007-06-25,IT,2014 Jabberwocky Rd,26192,Southlake,United States of America
+106,Valli,Pataballa,Programmer,4800,2008-02-05,IT,2014 Jabberwocky Rd,26192,Southlake,United States of America
+107,Diana,Lorentz,Programmer,4200,2009-02-07,IT,2014 Jabberwocky Rd,26192,Southlake,United States of America

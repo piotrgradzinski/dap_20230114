@@ -1,0 +1,3 @@
+employee_id,first_name,last_name,job_title,salary,hire_date,department_name,address,postal_code,city,country
+201,Michael,Hartstein,Marketing Manager,13000,2006-02-17,Marketing,147 Spadina Ave,M5V 2L7,Toronto,Canada
+202,Pat,Fay,Marketing Representative,6000,2007-08-17,Marketing,147 Spadina Ave,M5V 2L7,Toronto,Canada
